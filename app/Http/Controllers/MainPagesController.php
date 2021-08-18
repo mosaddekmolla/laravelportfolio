@@ -15,6 +15,7 @@ class MainPagesController extends Controller
     public function index(){
 
         $main = Main::first();
+        //model
         return view('pages.main', compact('main'));
     
     }
